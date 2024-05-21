@@ -7,4 +7,10 @@ class Car {
         this.speed = speed;
     }
 
+// Accelerate Method
+accelerate() {
+    this.speed += 10;
+    console.log(`${this.make} is going at ${this.speed} km/h`);
+    }
+
 }
